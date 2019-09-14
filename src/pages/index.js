@@ -1,20 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <p>Welcome to my new personal site.</p>
-    <p>Site under development coming soon.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+const IndexPage = () => {
+  return (
+    <div>
+       <h1>Saeed Alsharqawi Personal Web Site</h1>
+       <h2>I'm saeed alsharqawi A solutions-focused SharePoint Application Development Consultant, UI Architecture, Technical Leader & Expert Trainer with 12 years’ experience in Microsoft SharePoint, .NET technology, Java Script (Angular, React, Node JS) best practices, is keen to maintain a strong career path whereby exploiting his management skills, problem-solving and teamwork strengths alongside an enthusiastic learning drive. </h2>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+  )
+}
 
 export default IndexPage
