@@ -2,7 +2,7 @@ import React from "react"
 const Footer = () => {
   return (
     <div>
-       <p>Create by Saeed Alsharqawi, © 2019 </p>
+       <p>© {new Date().getFullYear()}, Create by {` `} Said Alsharqawi</p>
     </div>
   )
 }
