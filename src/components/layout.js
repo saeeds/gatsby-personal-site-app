@@ -1,11 +1,11 @@
 import React from "react"
 import Footer from '../components/footer';
 import Header from '../components/header';
-import layotStyles from './layout.module.scss'
+import './all.sass'
 const Layout = (props) => {
   return (
-    <div className={layotStyles.container}>
-      <div className={layotStyles.content}>
+    <div className="">
+      <div className="">
         <Header />
         {props.children}
       </div>
