@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => {
       </h1>
       <nav>
         <ul className={headerStyle.navList}>
-          <li><Link className={headerStyle.navItem} to="/">Home</Link></li>
-          <li><Link className={headerStyle.navItem} to="/blog">Blog</Link></li>
-          <li><Link className={headerStyle.navItem} to="/about">About</Link></li>
-          <li><Link className={headerStyle.navItem} to="/contact">Contact</Link></li>
+          <li><Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/">Home</Link></li>
+          <li><Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/blog">Blog</Link></li>
+          <li><Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/about">About</Link></li>
+          <li><Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>);
