@@ -1,6 +1,5 @@
 import React from "react"
 import { FaWallet, FaTree, FaSocks } from "react-icons/fa"
-
 export default [
   {
     icon: <FaWallet />,
