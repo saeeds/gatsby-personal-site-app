@@ -1,16 +1,21 @@
-import React from "react"
-import Footer from '../components/footer';
-import Header from '../components/header';
-import './all.sass'
-const Layout = (props) => {
-  return (
-    <div className="">
-      <div className="">
-        <Header />
-        {props.children}
-      </div>
-      <Footer />
-    </div>
-  )
+import React from 'react'
+import Navbar from './Navbar'
+import Footer from './Footer'
+//import 'bootstrap/dist/css/bootstrap.min.css'
+import './layout.css'
+
+const Layout = ({ children }) => {
+    return (
+        <>
+            <div>
+                <Navbar />
+                <div>
+                    {children}
+                </div>
+                <Footer />
+            </div>
+        </>
+    )
 }
+
 export default Layout
