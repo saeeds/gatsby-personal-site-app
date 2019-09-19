@@ -14,11 +14,11 @@ const About = () => {
                      </div>
                  </article>
                  <article className={styles.aboutInfo}>
-                     <h4>Independent - Software Architect /Technical Consultant</h4>
+                     <h4>Software Architect, Senior Technical Consultant & Trainer</h4>
                      <p>
-                      Solutions-focused sharepoint application development consultant, UI architecture, technical leader & expert trainer with 12 years’ experience in microsoft sharePoint, .NET technology, java script (angular, react, node JS) best practices, is keen to maintain a strong career path whereby exploiting his management skills, problem-solving and teamwork strengths alongside an enthusiastic learning drive
+                       I have a lot of experience in the Microsoft product stack. During the past years I have been fully dedicated to working on Microsoft .NET, SharePoint, Office 365, Azure,React, Nodejs and Business Intelligence solutions for the enterprise.
                      </p>
-                     <p></p>
+                     <p>I have been involved in a lot of different projects, including SharePoint, .NET, Office 365 and Azure projects. Mainly as lead developer, solution architect and the bridge between business and technology.</p>
                      <button type="button" className="btn-primary"><Link to="/aboutme">read more</Link></button>
                  </article>
             </div>

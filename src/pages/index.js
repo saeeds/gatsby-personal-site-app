@@ -11,7 +11,7 @@ export default class index extends Component {
         <SimpleHero>
           <Banner 
             title="continue exploring" 
-            info="Independent - Software Architect /Technical Consultant."
+            info="Software Architect, Senior Technical Consultant & Trainer."
           >
             <Link to="/projects" className="btn-white">
                explore projects
