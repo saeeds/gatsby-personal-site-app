@@ -1,3 +1,4 @@
+const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: `Said Alsharqawi Personal Site`,
@@ -6,6 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
