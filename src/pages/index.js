@@ -4,6 +4,7 @@ import SimpleHero from '../components/SimpleHero'
 import Banner from '../components/Banner'
 import { Link } from 'gatsby'
 import About from '../components/Home/About'
+import Services from '../components/Home/Services'
 export default class index extends Component {
   render() {
     return (
@@ -19,6 +20,7 @@ export default class index extends Component {
           </Banner>
         </SimpleHero>
         <About/>
+        <Services/>
       </Layout>
     )
   }

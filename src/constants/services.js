@@ -1,22 +1,22 @@
 import React from "react"
-import { FaWallet, FaTree, FaSocks } from "react-icons/fa"
+import { FaWallet, FaTree, FaDev } from "react-icons/fa"
 export default [
   {
     icon: <FaWallet />,
-    title: "saving money",
+    title: "Training",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Microsoft official curriculum courses,javascript,react, nodejs can be delivered on-demand, as well as custom training to fit your organization's needs.",
   },
   {
     icon: <FaTree />,
-    title: "endless hiking",
+    title: "Consultancy",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "deliver consultancy as part of my day-to-day business, and have been successfully hired by some of the major players in our region and gulf. ",
   },
   {
-    icon: <FaSocks />,
-    title: "amazing comfort",
+    icon: <FaDev />,
+    title: "Application Development",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "I have the experince to helping enterprises build sophisticated business applications that are robust, scalable and extensible. ",
   },
 ]
