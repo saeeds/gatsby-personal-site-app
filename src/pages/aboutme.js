@@ -3,8 +3,8 @@ import Layout from '../components/layout'
 const aboutme = () => {
     return (
         <Layout>
-            Hello My aboutme Page
-    </Layout>
+
+        </Layout>
     )
 }
 export default aboutme
