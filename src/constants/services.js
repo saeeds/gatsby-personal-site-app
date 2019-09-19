@@ -5,7 +5,7 @@ export default [
     icon: <FaWallet />,
     title: "Training",
     text:
-      "Microsoft official curriculum courses,javascript,react, nodejs can be delivered on-demand, as well as custom training to fit your organization's needs.",
+      "Microsoft official curriculum courses, javascript, react, nodejs can be delivered on-demand, as well as custom training to fit your organization's needs.",
   },
   {
     icon: <FaTree />,
