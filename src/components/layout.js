@@ -5,13 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './layout.css'
 const Layout = ({ children }) => {
     return (
-        <div>
+        <main>
             <Navbar />
             <div>
                 {children}
             </div>
             <Footer />
-        </div>
+        </main>
     )
 }
 export default Layout
