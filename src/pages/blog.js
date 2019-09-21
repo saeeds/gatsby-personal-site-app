@@ -7,5 +7,4 @@ const blog = () => {
         </Layout>
     )
 }
-
 export default blog

@@ -12,7 +12,7 @@ export default class index extends Component {
         <SimpleHero>
           <Banner 
             title="continue exploring" 
-            info="Software Architect, Senior Technical Consultant & Trainer."
+            info="Software Architect, Senior Technical Consultant and Trainer."
           >
             <Link to="/projects" className="btn-white">
                explore projects
