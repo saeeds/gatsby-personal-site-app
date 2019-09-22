@@ -3,7 +3,7 @@ import Title from '../Title'
 import styles from '../../css/about.module.css'
 import img from '../../images/mypic.jpeg'
 import Img from 'gatsby-image'
-import { Link } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import {useStaticQuery,graphql} from 'gatsby'
 
 const getAbout = graphql`
@@ -34,7 +34,7 @@ const About = () => {
                        I have a lot of experience in the Microsoft product stack. During the past years I have been fully dedicated to working on Microsoft .NET, SharePoint, Office 365, Azure,React, Nodejs and Business Intelligence solutions for the enterprise.
                      </p>
                      <p>I have been involved in a lot of different projects, including SharePoint, .NET, Office 365 and Azure projects. Mainly as lead developer, solution architect and the bridge between business and technology.</p>
-                     <button type="button" className="btn-primary"><Link to="/aboutme">read more</Link></button>
+                     <button type="button" className="btn-primary"><AniLink fade to="/aboutme">read more</AniLink></button>
                  </article>
             </div>
         </section>

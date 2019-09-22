@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Layout from '../components/layout'
 import StyledHero from '../components/StyledHero'
 import Banner from '../components/Banner'
-import { Link } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import About from '../components/Home/About'
 import Services from '../components/Home/Services'
 import { graphql } from 'gatsby'
@@ -14,9 +14,9 @@ export default ({data}) => (
         title="continue exploring"
         info="Software Architect, Senior Technical Consultant and Trainer."
       >
-        <Link to="/projects" className="btn-white">
+        <AniLink fade to="/projects" className="btn-white">
           explore projects
-            </Link>
+            </AniLink>
       </Banner>
     </StyledHero>
     <About />
