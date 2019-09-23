@@ -3,7 +3,6 @@ import Image from 'gatsby-image'
 import styles from '../../css/tour.module.css'
 import { FaMap } from 'react-icons/fa'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
-
 const Project = ({ project }) => {
     const { name, slug, months, country, images } = project
     let mainImage = images[0].fluid
