@@ -3,9 +3,8 @@ import Project from '../Projects/Project'
 import { useStaticQuery, graphql } from 'gatsby'
 import Title from '../Title'
 import styles from '../../css/items.module.css'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
-
-const getProjects = graphql`
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+const getFeaturedProjects = graphql`
 query {
     Allfeaturedprojects:allContentfulProject(filter:{featured:{eq:true}}) {
       edges {
@@ -32,10 +31,8 @@ query {
       }
     }
   }`
-
 const FeaturedProjects = () => {
-  const response = useStaticQuery(getProjects);
-  
+  const response = useStaticQuery(getFeaturedProjects)
   const projects = response.Allfeaturedprojects.edges
   return (
     <div>
@@ -51,5 +48,4 @@ const FeaturedProjects = () => {
     </div>
   )
 }
-
 export default FeaturedProjects
