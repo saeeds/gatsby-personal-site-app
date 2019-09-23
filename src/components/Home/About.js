@@ -34,7 +34,7 @@ const About = () => {
                        I have a lot of experience in the Microsoft product stack. During the past years I have been fully dedicated to working on Microsoft .NET, SharePoint, Office 365, Azure,React, Nodejs and Business Intelligence solutions for the enterprise.
                      </p>
                      <p>I have been involved in a lot of different projects, including SharePoint, .NET, Office 365 and Azure projects. Mainly as lead developer, solution architect and the bridge between business and technology.</p>
-                     <button type="button" className="btn-primary"><AniLink fade to="/aboutme">read more</AniLink></button>
+                     <AniLink fade to="/aboutme" className="btn-primary">read more</AniLink>
                  </article>
             </div>
         </section>
