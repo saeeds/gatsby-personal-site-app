@@ -6,7 +6,9 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import About from '../components/Home/About'
 import Services from '../components/Home/Services'
 import { graphql } from 'gatsby'
-export default ({data}) => (
+import FeaturedProjects from '../components/Home/FeaturedProjects'
+
+export default ({ data }) => (
   <Layout>
     <StyledHero home="true"
       img={data.defaultBcg.childImageSharp.fluid} >
@@ -21,6 +23,7 @@ export default ({data}) => (
     </StyledHero>
     <About />
     <Services />
+    <FeaturedProjects></FeaturedProjects>
   </Layout>
 )
 
