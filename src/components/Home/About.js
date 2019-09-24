@@ -1,7 +1,6 @@
 import React from 'react'
 import Title from '../Title'
 import styles from '../../css/about.module.css'
-import img from '../../images/mypic.jpeg'
 import Img from 'gatsby-image'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import {useStaticQuery,graphql} from 'gatsby'
