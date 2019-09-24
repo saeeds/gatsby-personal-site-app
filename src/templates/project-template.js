@@ -50,7 +50,7 @@ const Template = ({ data }) => {
             </p>
           </div>
           <h4>starts on: {start}</h4>
-          <h4>Duration: `${months} months`</h4>
+          <h4>Duration: {`${months} months`}</h4>
           <p className={styles.desc}>
             {description}
           </p>
