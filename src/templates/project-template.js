@@ -50,12 +50,19 @@ const Template = ({ data }) => {
             </p>
           </div>
           <h4>starts on: {start}</h4>
-          <h4>Duration: {months}</h4>
+          <h4>Duration: `${months} months`</h4>
           <p className={styles.desc}>
             {description}
           </p>
           <h2>Project Details</h2>
-          <Day/>
+          <div>
+             {
+               details.map((item, index) => {
+                 return  <Day key={index} detail={item}/>
+               })
+             }
+          </div>
+         
         </div>
       </section>
     </Layout>
