@@ -15,7 +15,7 @@ query {
          id: contentful_id
          image {
            fluid{
-             ...GatsbyContentfulFluid_tracedSVG
+             ...GatsbyContentfulFluid
            }
          }
        }
