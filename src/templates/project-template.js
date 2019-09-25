@@ -6,7 +6,7 @@ import styles from '../css/template.module.css'
 import Img from 'gatsby-image'
 import { FaMoneyBillWave, FaMap } from 'react-icons/fa'
 import Day from '../components/SingleProject/Day'
-
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 const Template = ({ data }) => {
   const {
     name,
@@ -50,19 +50,20 @@ const Template = ({ data }) => {
             </p>
           </div>
           <h4>starts on: {start}</h4>
+          <h4>end on: {start}</h4>
           <h4>Duration: {`${months} months`}</h4>
           <p className={styles.desc}>
             {description}
           </p>
           <h2>Project Details</h2>
-          <div>
-             {
-               details.map((item, index) => {
-                 return  <Day key={index} detail={item}/>
-               })
-             }
+          <div className={styles.journey}>
+            {
+              details.map((item, index) => {
+                return <Day key={index} detail={item} />
+              })
+            }
           </div>
-         
+          <AniLink fade to="/projects" className="btn-primary">back to projects</AniLink>
         </div>
       </section>
     </Layout>
