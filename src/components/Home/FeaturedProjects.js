@@ -21,7 +21,7 @@ query {
           months
           images {
             fluid{
-                ...GatsbyContentfulFluid_tracedSVG
+                ...GatsbyContentfulFluid
             }
           }
           details{
