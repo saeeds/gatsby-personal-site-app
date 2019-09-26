@@ -7,8 +7,14 @@ module.exports = {
     title: `Said Alsharqawi Personal Site`,
     description: `Explore awsome said alsharqawi perosanl web site`,
     author: `@Saeed Alsharqawi`,
+    twitterUsername: '@saed_sharqawi',
+    image:'/mypic.jpeg',
+    siteUrl: 'https://www.saedsharqawis.com',
+    
+
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
