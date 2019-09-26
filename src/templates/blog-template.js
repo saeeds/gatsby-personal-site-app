@@ -15,10 +15,6 @@ const Blog = ({ data }) => {
     const options = {
         renderNode: {
             "embedded-asset-block": node => {
-                if (!node.data.target.fields) {
-                    return
-                }
-
                 return (
                     <div className="rich">
                         <h3>this is awesome image</h3>
@@ -28,12 +24,7 @@ const Blog = ({ data }) => {
                 )
             },
             "embedded-entry-block": node => {
-                if (!node.data.target.fields) {
-                    return
-                }
                 const { title, image, text } = node.data.target.fields
-                console.log(node.data.target.fields)
-
                 return (
                     <div>
                         <br />
