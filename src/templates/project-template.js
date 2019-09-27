@@ -22,6 +22,7 @@ const Template = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title="project" />
       <StyledHero img={mainImage.fluid} />
       <section className={styles.template} >
         <div className={styles.center}>

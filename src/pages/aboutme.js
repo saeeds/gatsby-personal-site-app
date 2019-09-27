@@ -2,15 +2,17 @@ import React from 'react'
 import Layout from '../components/layout'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 const aboutme = ({ data }) => {
-    return (
-        <Layout>
-            <StyledHero home="true"
-                img={data.aboutmeBcg.childImageSharp.fluid} >
+  return (
+    <Layout>
+      <SEO title="Aboutme" />
+      <StyledHero home="true"
+        img={data.aboutmeBcg.childImageSharp.fluid} >
 
-            </StyledHero>
-        </Layout>
-    )
+      </StyledHero>
+    </Layout>
+  )
 }
 
 export const query = graphql`

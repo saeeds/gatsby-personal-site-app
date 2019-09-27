@@ -3,9 +3,11 @@ import Layout from '../components/layout'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
 import Projects from '../components/Projects/Projects'
+import SEO from '../components/SEO'
 const projects = ({ data }) => {
   return (
     <Layout>
+      <SEO title="Projects" />
       <StyledHero img={data.projectBcg.childImageSharp.fluid} />
       <Projects/>
     </Layout>
