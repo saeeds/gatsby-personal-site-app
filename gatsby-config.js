@@ -8,13 +8,14 @@ module.exports = {
     description: `Explore awsome said alsharqawi perosanl web site`,
     author: `@Saeed Alsharqawi`,
     twitterUsername: '@saed_sharqawi',
-    image:'/mypic.jpeg',
+    image: '/mypic.jpeg',
     siteUrl: 'https://www.saedsharqawis.com',
-    
+
 
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,6 +29,14 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.saedsharqawis.com/',
+        sitemap: 'https://www.saedsharqawis.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
