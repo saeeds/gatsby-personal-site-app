@@ -8,7 +8,7 @@ import SEO from '../components/SEO'
 const blog = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Blogs" />
       <StyledHero img={data.blogBcg.childImageSharp.fluid} />
       <BlogList />
     </Layout>
