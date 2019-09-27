@@ -48,7 +48,7 @@ const Blog = ({ data }) => {
     }
     return (
         <Layout>
-            <SEO title="blog" />
+            <SEO title={title} />
             <section className={styles.blog}>
                 <div className={styles.center}>
                     <h1>{title}</h1>
