@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../Title'
 import styles from '../../css/services.module.css'
 import services from '../../constants/services'
+
 function Services() {
     return (
         <section className={styles.services}>
