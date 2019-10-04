@@ -1,18 +1,18 @@
 export default [
   {
     path: "/",
-    text: "home",
+    text: "HOME",
   },
   {
     path: "/projects",
-    text: "projects",
+    text: "PROJECTS",
   },
   {
     path: "/blog",
-    text: "blog",
+    text: "BLOG",
   },
   {
     path: "/contact",
-    text: "contact",
+    text: "CONTACT",
   },
 ]
